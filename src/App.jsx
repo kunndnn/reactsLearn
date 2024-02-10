@@ -3,7 +3,7 @@
 // 1. external
 // 2 modules
 // 3. inline
-import Button from "./Button/Button";
+import Button from "./Button";
 function App() {
   return <Button />;
 }
