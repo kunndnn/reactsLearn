@@ -1,19 +1,11 @@
-// import Header from "./Header";
-// import Footer from "./Footer";
-// import Food from "./Food";
-import Card from "./Card";
+// how to style react components with css
+// not including external frameworks or preprocessors
+// 1. external
+// 2 modules
+// 3. inline
+import Button from "./Button/Button";
 function App() {
-  return (
-    <>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      {/* <Header />
-      <Food />
-      <Footer /> */}
-    </>
-  );
+  return <Button />;
 }
 
 export default App;
