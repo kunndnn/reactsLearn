@@ -1,16 +1,23 @@
-.welcome-message {
-  font-size: 2.5em;
-  background-color: hsl(120, 100%, 42%);
-  color: white;
-  padding: 10px;
+.list-category {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.496);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
   border-radius: 5px;
+  background-color: aqua;
+}
+
+.list-items li {
+  font-size: 2em;
+  list-style: none;
+  color: black;
+  text-align: center;
   margin: 0;
 }
-.login-prompt {
-  font-size: 2.5em;
-  background-color: hsl(0, 100%, 50%);
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 0;
+/* on hover fade the color (change the color and make cursor looks like pointer) */
+.list-items li:hover {
+  color: hsl(0, 0%, 45%);
+  cursor: pointer;
 }
