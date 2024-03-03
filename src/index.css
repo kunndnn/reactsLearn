@@ -1,4 +1,58 @@
 .box {
-  border: 3px solid;
-  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsla(0, 0%, 50%, 0.747);
+}
+
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.display {
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+  margin-bottom: 25px;
+}
+
+.controls button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.start-button {
+  background-color: hsla(120, 100%, 25%, 0.673);
+}
+.start-button:hover {
+  background-color: hsla(120, 100%, 25%, 0.91);
+}
+.stop-button {
+  background-color: hsla(41, 100%, 50%, 0.79);
+}
+.stop-button:hover {
+  background-color: hsla(31, 100%, 25%, 0.91);
+}
+.reset-button {
+  background-color: hsla(206, 77%, 42%, 0.673);
+}
+.reset-button:hover {
+  background-color: hsla(176, 100%, 62%, 0.91);
 }
